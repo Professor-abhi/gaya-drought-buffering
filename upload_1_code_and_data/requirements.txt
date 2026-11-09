@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+pypdf
+xlrd
+openpyxl
+geopandas
+rasterio
+python-docx
+pillow

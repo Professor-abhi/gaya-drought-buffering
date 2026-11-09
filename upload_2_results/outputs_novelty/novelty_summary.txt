@@ -1,0 +1,68 @@
+==========================================================================
+NOVELTY ANALYSES - GAYA DROUGHT BUFFERING STUDY
+==========================================================================
+
+--- A. AGREEMENT BETWEEN 3 INDEPENDENT IRRIGATION SOURCES ---
+Sentinel-2 RF (Rabi-cropped) vs WorldCereal irrigated: agreement 65.2%, kappa 0.335
+Sentinel-2 RF (Rabi-cropped) vs MODIS persistent Rabi green: agreement 65.8%, kappa 0.3
+WorldCereal irrigated vs MODIS persistent Rabi green: agreement 71.1%, kappa 0.425
+Fleiss' kappa (all three sources): 0.339   (n = 3809 cropland pixels)
+  share of cropland called irrigated by Sentinel-2 RF (Rabi-cropped): 70%
+  share of cropland called irrigated by WorldCereal irrigated: 44%
+  share of cropland called irrigated by MODIS persistent Rabi green: 53%
+Consensus irrigated area (at least 2 of 3 sources): 210,656 ha; all 3 sources: 114,038 ha
+
+--- B. LEGACY AND COMPOUND DROUGHT (does buffering hold under dry + hot?) ---
+KHARIF: mean VHI by year type (n years in brackets)
+   Normal                : Irrigated 60.5 (17), Rainfed 55.7 (17)
+   Dry only              : Irrigated 40.6 (3), Rainfed 37.6 (3)
+   Hot only              : Irrigated 49.4 (4), Rainfed 40.2 (4)
+   Compound (dry + hot)  : Irrigated 20.5 (1), Rainfed 19.4 (1)
+   Irrigated VHI = 55.9 + +10.61*SPEI (p=0.012) -7.45*heat (p=0.015) -1.04*SPEI x heat (p=0.758), R2=0.44
+   Rainfed   VHI = 51.1 + +10.05*SPEI (p=0.006) -8.84*heat (p=0.001) -2.06*SPEI x heat (p=0.475), R2=0.53
+   FORMAL TEST (kharif, n=25 years): irrigated-minus-rainfed gap = 4.8 +1.22*SPEI (p=0.376, 95% CI -2.06 to +4.33) +1.33*heat (p=0.276, 95% CI -1.21 to +4.25)
+RABI: mean VHI by year type (n years in brackets)
+   Normal                : Irrigated 57.4 (16), Rainfed 56.9 (16)
+   Dry only              : Irrigated 55.4 (2), Rainfed 56.7 (2)
+   Hot only              : Irrigated 37.4 (5), Rainfed 30.3 (5)
+   Compound (dry + hot)  : Irrigated 38.6 (2), Rainfed 30.2 (2)
+   Irrigated VHI = 53.7 + -0.16*SPEI (p=0.952) -11.43*heat (p=0.000) -0.94*SPEI x heat (p=0.690), R2=0.58
+   Rainfed   VHI = 51.9 + +1.00*SPEI (p=0.770) -14.76*heat (p=0.000) -1.76*SPEI x heat (p=0.574), R2=0.57
+   FORMAL TEST (rabi, n=25 years): irrigated-minus-rainfed gap = 1.8 -0.90*SPEI (p=0.536, 95% CI -3.52 to +1.52) +3.08*heat (p=0.018, 95% CI +0.58 to +5.26)
+   (Rabi SPEI = the PREVIOUS monsoon: a significant slope means a legacy effect.)
+
+--- C. BUFFERING AT WHAT COST? GROUNDWATER STORAGE (GRACE/GRACE-FO) ---
+GRACE months available: 227; primary series: GRACE TWS minus GLDAS soil moisture
+Agreement of the two groundwater estimates: r = 0.47 (n = 218 months)
+Annual groundwater storage anomaly trend: -50 mm per decade (Mann-Kendall p = 0.000, 2002-2024)
+Monsoon recharge: drought years +54 mm vs normal +89 mm
+Post-monsoon drawdown (Oct->May): drought years -81 mm vs normal -83 mm
+Drawdown vs monsoon SPEI: slope -11.1 mm per SPEI unit (r = -0.11, p = 0.630)
+   drought 2009: extra buffering -13.9 VHI points, extra groundwater drawdown -34 mm
+   drought 2010: extra buffering -4.4 VHI points, extra groundwater drawdown +89 mm
+   drought 2022: extra buffering +1.9 VHI points, extra groundwater drawdown -25 mm
+   drought 2023: extra buffering +4.2 VHI points, extra groundwater drawdown -23 mm
+
+--- D. WHAT CONTROLS DROUGHT SENSITIVITY? (Random Forest + spatial cross-validation) ---
+4408 pixels, 8 drivers; spatial-block cross-validated R2 = 0.15 (66 blocks of 0.1 deg)
+Driver ranking (permutation importance (install 'shap' for SHAP plots)):
+   elev_m        importance 0.380   (Spearman with sensitivity +0.30)
+   rain_cv       importance 0.202   (Spearman with sensitivity -0.17)
+   mar_tmax_C    importance 0.118   (Spearman with sensitivity +0.01)
+   clay_pct      importance 0.028   (Spearman with sensitivity +0.07)
+   slope_deg     importance 0.018   (Spearman with sensitivity +0.03)
+   wc_irr_frac   importance 0.014   (Spearman with sensitivity -0.11)
+   dist_river_m  importance 0.013   (Spearman with sensitivity +0.01)
+   irr_index     importance 0.007   (Spearman with sensitivity -0.09)
+
+--- E. ROBUSTNESS: drop in VHI (normal minus drought years), irrigated vs rainfed ---
+kharif Detrended VHI, SPEI-4 <= -1.0 (main)   n=4: irrigated  22.9, rainfed  19.7, buffering  -3.2 points (p=0.73)
+kharif Raw VHI, SPEI-4 <= -1.0                n=4: irrigated  17.9, rainfed  15.0, buffering  -2.9 points (p=0.65)
+kharif Detrended VHI, SPEI-4 <= -0.8          n=5: irrigated  23.8, rainfed  19.5, buffering  -4.2 points (p=0.88)
+kharif Detrended VHI, SPI-4 <= -1.0           n=4: irrigated  26.1, rainfed  20.4, buffering  -5.7 points (p=0.94)
+kharif leave-one-drought-year-out buffering: -5.6 to +0.4 points
+rabi   Detrended VHI, SPEI-4 <= -1.0 (main)   n=4: irrigated   5.7, rainfed   7.1, buffering  +1.4 points (p=0.32)
+rabi   Raw VHI, SPEI-4 <= -1.0                n=4: irrigated  -4.8, rainfed   0.0, buffering  +4.9 points (p=0.08)
+rabi   Detrended VHI, SPEI-4 <= -0.8          n=5: irrigated  -1.0, rainfed  -1.7, buffering  -0.7 points (p=0.54)
+rabi   Detrended VHI, SPI-4 <= -1.0           n=4: irrigated  -4.4, rainfed  -5.6, buffering  -1.1 points (p=0.60)
+rabi   leave-one-drought-year-out buffering: -0.4 to +4.6 points

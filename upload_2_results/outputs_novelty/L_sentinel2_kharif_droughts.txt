@@ -1,0 +1,26 @@
+SENTINEL-2 FIELD-SCALE CHECK OF KHARIF DROUGHT BUFFERING (Script 19), Gaya, computed 2026-11-02 (interactive, 20 m)
+Groups defined without Kharif information: 1 = WorldCereal 2021 winter irrigation AND MODIS Rabi-green in >= 80% of
+years 2000-2024; 2 = not WorldCereal-irrigated AND Rabi-green in <= 20% of years; WorldCover cropland only.
+Kharif greenness = 90th percentile of Sentinel-2 NDVI (Cloud Score+ >= 0.6), 15 Aug - 31 Oct.
+Drought years (SPEI-4 Sep <= -1): 2022 (SPEI -1.08), 2023 (-1.36). Normal: 2018-2021, 2024, 2025.
+
+Group areas: winter-irrigated 120,969 ha; rainfed 32,925 ha
+
+Kharif p90 NDVI by year      2018   2019   2020   2021   2022   2023   2024   2025   normal mean
+  winter-irrigated           0.751  0.713  0.804  0.811  0.823  0.786  0.825  0.824  0.788
+  rainfed                    0.583  0.625  0.678  0.687  0.663  0.629  0.697  0.705  0.663
+
+Anomaly vs normal-year mean:        2022 irrigated +0.034, rainfed +0.001;  2023 irrigated -0.002, rainfed -0.033
+Anomaly vs normal-year linear trend: 2022 irrigated +0.024, rainfed -0.012;  2023 irrigated -0.025, rainfed -0.060
+  (normal-year residual SD: irrigated 0.029, rainfed 0.025)
+Share of pixels whose NDVI fell by > 0.1 below their normal mean: 2022 irrigated 8.4%, rainfed 16.0%;
+                                                                  2023 irrigated 9.8%, rainfed 20.0%
+
+MODIS detrended Kharif VHI anomaly by drought year (buffering = irrigated minus rainfed anomaly; + = irrigated lost less)
+  main groups        2009: -31.6 vs -18.2 (-13.5) | 2010: -34.2 vs -30.2 (-4.0) | 2022: -7.4 vs -9.7 (+2.3) | 2023: -3.6 vs -8.1 (+4.6)
+  persistent groups  2009: -32.3 vs -14.9 (-17.4) | 2010: -34.2 vs -28.7 (-5.5) | 2022: -7.4 vs -10.1 (+2.7) | 2023: -3.5 vs -8.4 (+4.9)
+
+Reading: Sentinel-2 and MODIS agree for 2022-23 (small losses, irrigated land lost less). The pooled "no buffering"
+result is driven by the severe 2009 and 2010 droughts, in which winter-irrigated land lost as much or more.
+Monsoon rainfall was similar in all four droughts (708-750 mm; SPEI -1.08 to -1.36), but vegetation losses were far
+smaller in 2022-23.

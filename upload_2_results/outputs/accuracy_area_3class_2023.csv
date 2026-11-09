@@ -1,0 +1,4 @@
+cls,n_samples,mapped_ha,users_acc,users_ci95,producers_acc,producers_ci95,adjusted_ha,adjusted_ci95_ha
+Irrigated,55,263203,94.5,6.1,90.4,3.8,275136,19615
+Rainfed,55,96196,69.1,12.3,81.5,16.2,81525,19871
+Fallow,53,2877,73.6,12.0,37.7,32.5,5615,4815
