@@ -1,0 +1,28 @@
+========================================================================
+CROP VALIDATION WITH ICRISAT DISTRICT STATISTICS - GAYA
+========================================================================
+Years 1990-2020; variables: gca, gia, rice_area, rice_prod, rice_yield, wheat_irr
+Quality screen: rice years [1999] removed (yield > 2.5 x median, inconsistent with area)
+
+--- RICE AREA (25 years) ---
+Anomaly in drought years -27.8% (n=5: [1992, 1993, 1995, 2009, 2010]) vs normal -3.2%  [Mann-Whitney one-sided p = 0.065]
+Anomaly = -6.3 +11.6% per SPEI unit (p=0.079) -3.1% per SD heat (p=0.575), R2=0.15
+With gross irrigated / gross cropped area (mean 0.82): SPEI x share -1.6 (p=0.848), heat x share -5.1 (p=0.425)
+   (negative SPEI x share = smaller drought losses when more is irrigated)
+VHI vs rice area anomaly (15 years, 2001-2015): r = 0.78 (p = 0.001)
+
+--- RICE PROD (25 years) ---
+Anomaly in drought years -44.5% (n=5: [1992, 1993, 1995, 2009, 2010]) vs normal -3.5%  [Mann-Whitney one-sided p = 0.065]
+Anomaly = -8.5 +22.1% per SPEI unit (p=0.032) -9.3% per SD heat (p=0.271), R2=0.24
+With gross irrigated / gross cropped area (mean 0.82): SPEI x share -4.7 (p=0.715), heat x share -4.0 (p=0.674)
+   (negative SPEI x share = smaller drought losses when more is irrigated)
+VHI vs rice prod anomaly (15 years, 2001-2015): r = 0.75 (p = 0.001)
+
+--- RICE YIELD (25 years) ---
+Anomaly in drought years -20.9% (n=5: [1992, 1993, 1995, 2009, 2010]) vs normal +12.8%  [Mann-Whitney one-sided p = 0.048]
+Anomaly = +9.2 +20.2% per SPEI unit (p=0.026) -7.3% per SD heat (p=0.327), R2=0.24
+With gross irrigated / gross cropped area (mean 0.82): SPEI x share -3.1 (p=0.781), heat x share +2.4 (p=0.769)
+   (negative SPEI x share = smaller drought losses when more is irrigated)
+VHI vs rice yield anomaly (15 years, 2001-2015): r = 0.54 (p = 0.037)
+
+wheat: no data (download wheat area, production and yield from ICRISAT)

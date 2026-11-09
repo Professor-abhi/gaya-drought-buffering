@@ -1,0 +1,33 @@
+DES YIELD VALIDATION, GAYA (rice = all seasons; wheat = Rabi), agricultural years 1997-2022
+Rice: incomplete years (area < 10% of median) [1999]; implausibly low yield (< 30% of median) [2004, 2005]
+  2004: DES rice yield 0.19 t/ha; ICRISAT 0.19 t/ha
+  2005: DES rice yield 0.31 t/ha; ICRISAT 0.31 t/ha
+DES vs ICRISAT rice production, 1997-2015 (16 years, flagged years removed): r = 0.99
+
+--- RICE, main (incomplete years removed)
+rice_area  drought-year anomalies: 2009 -47%, 2010 -50%, 2022 +24% | other years mean +6% | per SPEI unit +13.1% (p = 0.066), n = 25
+rice_prod  drought-year anomalies: 2009 -70%, 2010 -77%, 2022 -22% | other years mean -1% | per SPEI unit +22.7% (p = 0.042), n = 25
+rice_yield drought-year anomalies: 2009 -28%, 2010 -38%, 2022 +6% | other years mean +19% | per SPEI unit +23.6% (p = 0.020), n = 25
+
+--- RICE, sensitivity (also implausible low-yield years removed)
+rice_area  drought-year anomalies: 2009 -49%, 2010 -52%, 2022 +20% | other years mean +7% | per SPEI unit +9.7% (p = 0.142), n = 23
+rice_prod  drought-year anomalies: 2009 -70%, 2010 -77%, 2022 -14% | other years mean +6% | per SPEI unit +18.9% (p = 0.054), n = 23
+rice_yield drought-year anomalies: 2009 -28%, 2010 -38%, 2022 +11% | other years mean +28% | per SPEI unit +18.2% (p = 0.023), n = 23
+
+--- WHEAT (Rabi), heat = standardized Feb-Mar mean Tmax of the harvest year (ERA5-Land)
+wheat_yield: +1.8% per SD of heat (p = 0.653, n = 26); with monsoon SPEI: heat +2.5% (p = 0.544), SPEI +6.4% (p = 0.196)
+             hot years (>= +1 SD): 2005 -41%, 2008 +3%, 2009 +0%, 2015 +2%
+wheat_prod : -0.3% per SD of heat (p = 0.952, n = 26); with monsoon SPEI: heat +0.8% (p = 0.854), SPEI +11.3% (p = 0.044)
+             hot years (>= +1 SD): 2005 -43%, 2008 -3%, 2009 -27%, 2015 +7%
+
+--- RABI PULSES AND MUSTARD (mostly rainfed / residual moisture), same heat index
+wheat (mostly irrigated)            : +1.8% yield per SD of Feb-Mar heat (p = 0.653, n = 26)
+gram                                : +6.6% yield per SD of Feb-Mar heat (p = 0.316, n = 26)
+masoor (lentil)                     : +4.8% yield per SD of Feb-Mar heat (p = 0.477, n = 24)
+rapeseed-mustard                    : +8.4% yield per SD of Feb-Mar heat (p = 0.178, n = 26)
+gram + masoor (mean yield anomaly)  : +7.1% yield per SD of Feb-Mar heat (p = 0.198, n = 24)
+Wheat minus pulse yield anomaly vs heat: -2.8 percentage points per SD (p = 0.609, n = 26) (positive = irrigated wheat holds up better than rainfed pulses in hot years)
+Detrended Rabi VHI (irrigated pixels) vs wheat yield anomaly, 2000-2022: r = 0.14 (p = 0.513)
+Detrended Rabi VHI (rainfed pixels) vs wheat yield anomaly, 2000-2022: r = 0.05 (p = 0.829)
+Detrended Kharif VHI (irrigated pixels) vs rice production anomaly, 2001-2022: r = 0.73 (p = 0.000)
+Detrended Kharif VHI (rainfed pixels) vs rice production anomaly, 2001-2022: r = 0.67 (p = 0.001)

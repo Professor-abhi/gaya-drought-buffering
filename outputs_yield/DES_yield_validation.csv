@@ -1,0 +1,197 @@
+analysis,variable,year,anomaly_pct
+main (incomplete years removed),rice_area,2009,-46.57
+main (incomplete years removed),rice_area,2010,-50.47
+main (incomplete years removed),rice_area,2022,24.13
+main (incomplete years removed),rice_prod,2009,-69.86
+main (incomplete years removed),rice_prod,2010,-76.55
+main (incomplete years removed),rice_prod,2022,-22.01
+main (incomplete years removed),rice_yield,2009,-27.52
+main (incomplete years removed),rice_yield,2010,-38.34
+main (incomplete years removed),rice_yield,2022,6.47
+sensitivity (also implausible low-yield years removed),rice_area,2009,-48.68
+sensitivity (also implausible low-yield years removed),rice_area,2010,-52.41
+sensitivity (also implausible low-yield years removed),rice_area,2022,20.5
+sensitivity (also implausible low-yield years removed),rice_prod,2009,-70.16
+sensitivity (also implausible low-yield years removed),rice_prod,2010,-76.56
+sensitivity (also implausible low-yield years removed),rice_prod,2022,-14.48
+sensitivity (also implausible low-yield years removed),rice_yield,2009,-27.56
+sensitivity (also implausible low-yield years removed),rice_yield,2010,-38.1
+sensitivity (also implausible low-yield years removed),rice_yield,2022,11.04
+wheat,wheat_yield,1997,4.0
+wheat,wheat_yield,1998,17.74
+wheat,wheat_yield,1999,3.98
+wheat,wheat_yield,2000,0.85
+wheat,wheat_yield,2001,51.89
+wheat,wheat_yield,2002,5.54
+wheat,wheat_yield,2003,3.55
+wheat,wheat_yield,2004,-43.62
+wheat,wheat_yield,2005,-41.11
+wheat,wheat_yield,2006,3.32
+wheat,wheat_yield,2007,13.75
+wheat,wheat_yield,2008,2.81
+wheat,wheat_yield,2009,0.42
+wheat,wheat_yield,2010,-0.95
+wheat,wheat_yield,2011,23.25
+wheat,wheat_yield,2012,7.05
+wheat,wheat_yield,2013,-18.29
+wheat,wheat_yield,2014,4.15
+wheat,wheat_yield,2015,2.04
+wheat,wheat_yield,2016,13.01
+wheat,wheat_yield,2017,29.19
+wheat,wheat_yield,2018,9.85
+wheat,wheat_yield,2019,-32.9
+wheat,wheat_yield,2020,5.95
+wheat,wheat_yield,2021,3.84
+wheat,wheat_yield,2022,2.05
+wheat,wheat_prod,1997,3.98
+wheat,wheat_prod,1998,2.52
+wheat,wheat_prod,1999,-6.41
+wheat,wheat_prod,2000,-10.52
+wheat,wheat_prod,2001,33.39
+wheat,wheat_prod,2002,26.09
+wheat,wheat_prod,2003,8.24
+wheat,wheat_prod,2004,-55.14
+wheat,wheat_prod,2005,-42.85
+wheat,wheat_prod,2006,21.34
+wheat,wheat_prod,2007,6.28
+wheat,wheat_prod,2008,-3.25
+wheat,wheat_prod,2009,-27.44
+wheat,wheat_prod,2010,-22.71
+wheat,wheat_prod,2011,23.55
+wheat,wheat_prod,2012,6.38
+wheat,wheat_prod,2013,-28.1
+wheat,wheat_prod,2014,11.65
+wheat,wheat_prod,2015,6.96
+wheat,wheat_prod,2016,19.09
+wheat,wheat_prod,2017,35.22
+wheat,wheat_prod,2018,6.14
+wheat,wheat_prod,2019,-36.7
+wheat,wheat_prod,2020,0.73
+wheat,wheat_prod,2021,-1.51
+wheat,wheat_prod,2022,-3.66
+rabi_heat,wheat (mostly irrigated),1997,4.0
+rabi_heat,wheat (mostly irrigated),1998,17.74
+rabi_heat,wheat (mostly irrigated),1999,3.98
+rabi_heat,wheat (mostly irrigated),2000,0.85
+rabi_heat,wheat (mostly irrigated),2001,51.89
+rabi_heat,wheat (mostly irrigated),2002,5.54
+rabi_heat,wheat (mostly irrigated),2003,3.55
+rabi_heat,wheat (mostly irrigated),2004,-43.62
+rabi_heat,wheat (mostly irrigated),2005,-41.11
+rabi_heat,wheat (mostly irrigated),2006,3.32
+rabi_heat,wheat (mostly irrigated),2007,13.75
+rabi_heat,wheat (mostly irrigated),2008,2.81
+rabi_heat,wheat (mostly irrigated),2009,0.42
+rabi_heat,wheat (mostly irrigated),2010,-0.95
+rabi_heat,wheat (mostly irrigated),2011,23.25
+rabi_heat,wheat (mostly irrigated),2012,7.05
+rabi_heat,wheat (mostly irrigated),2013,-18.29
+rabi_heat,wheat (mostly irrigated),2014,4.15
+rabi_heat,wheat (mostly irrigated),2015,2.04
+rabi_heat,wheat (mostly irrigated),2016,13.01
+rabi_heat,wheat (mostly irrigated),2017,29.19
+rabi_heat,wheat (mostly irrigated),2018,9.85
+rabi_heat,wheat (mostly irrigated),2019,-32.9
+rabi_heat,wheat (mostly irrigated),2020,5.95
+rabi_heat,wheat (mostly irrigated),2021,3.84
+rabi_heat,wheat (mostly irrigated),2022,2.05
+rabi_heat,gram,1997,23.24
+rabi_heat,gram,1998,-10.25
+rabi_heat,gram,1999,-5.26
+rabi_heat,gram,2000,-26.25
+rabi_heat,gram,2001,-7.0
+rabi_heat,gram,2002,19.75
+rabi_heat,gram,2003,31.32
+rabi_heat,gram,2004,-44.36
+rabi_heat,gram,2005,-32.33
+rabi_heat,gram,2006,-17.73
+rabi_heat,gram,2007,1.02
+rabi_heat,gram,2008,19.67
+rabi_heat,gram,2009,52.55
+rabi_heat,gram,2010,1.3
+rabi_heat,gram,2011,-2.03
+rabi_heat,gram,2012,117.58
+rabi_heat,gram,2013,-9.97
+rabi_heat,gram,2014,-5.33
+rabi_heat,gram,2015,11.46
+rabi_heat,gram,2016,11.43
+rabi_heat,gram,2017,30.36
+rabi_heat,gram,2018,7.33
+rabi_heat,gram,2019,-38.85
+rabi_heat,gram,2020,-15.35
+rabi_heat,gram,2021,-18.73
+rabi_heat,gram,2022,0.85
+rabi_heat,masoor (lentil),1999,5.76
+rabi_heat,masoor (lentil),2000,23.86
+rabi_heat,masoor (lentil),2001,16.05
+rabi_heat,masoor (lentil),2002,-4.48
+rabi_heat,masoor (lentil),2003,-0.58
+rabi_heat,masoor (lentil),2004,-13.32
+rabi_heat,masoor (lentil),2005,-19.07
+rabi_heat,masoor (lentil),2006,-5.95
+rabi_heat,masoor (lentil),2007,-4.43
+rabi_heat,masoor (lentil),2008,52.55
+rabi_heat,masoor (lentil),2009,-10.69
+rabi_heat,masoor (lentil),2010,50.57
+rabi_heat,masoor (lentil),2011,44.87
+rabi_heat,masoor (lentil),2012,55.91
+rabi_heat,masoor (lentil),2013,-4.29
+rabi_heat,masoor (lentil),2014,-3.05
+rabi_heat,masoor (lentil),2015,77.38
+rabi_heat,masoor (lentil),2016,24.88
+rabi_heat,masoor (lentil),2017,-65.91
+rabi_heat,masoor (lentil),2018,25.25
+rabi_heat,masoor (lentil),2019,-21.37
+rabi_heat,masoor (lentil),2020,-11.14
+rabi_heat,masoor (lentil),2021,1.27
+rabi_heat,masoor (lentil),2022,14.96
+rabi_heat,rapeseed-mustard,1997,-26.02
+rabi_heat,rapeseed-mustard,1998,13.79
+rabi_heat,rapeseed-mustard,1999,20.27
+rabi_heat,rapeseed-mustard,2000,4.81
+rabi_heat,rapeseed-mustard,2001,8.79
+rabi_heat,rapeseed-mustard,2002,15.64
+rabi_heat,rapeseed-mustard,2003,11.11
+rabi_heat,rapeseed-mustard,2004,-20.41
+rabi_heat,rapeseed-mustard,2005,-11.96
+rabi_heat,rapeseed-mustard,2006,-13.5
+rabi_heat,rapeseed-mustard,2007,-52.92
+rabi_heat,rapeseed-mustard,2008,-6.15
+rabi_heat,rapeseed-mustard,2009,52.52
+rabi_heat,rapeseed-mustard,2010,15.81
+rabi_heat,rapeseed-mustard,2011,58.36
+rabi_heat,rapeseed-mustard,2012,56.24
+rabi_heat,rapeseed-mustard,2013,-24.41
+rabi_heat,rapeseed-mustard,2014,60.97
+rabi_heat,rapeseed-mustard,2015,-4.83
+rabi_heat,rapeseed-mustard,2016,15.01
+rabi_heat,rapeseed-mustard,2017,8.42
+rabi_heat,rapeseed-mustard,2018,56.82
+rabi_heat,rapeseed-mustard,2019,-38.13
+rabi_heat,rapeseed-mustard,2020,-15.75
+rabi_heat,rapeseed-mustard,2021,-14.8
+rabi_heat,rapeseed-mustard,2022,-11.35
+rabi_heat,gram + masoor (mean yield anomaly),1999,0.25
+rabi_heat,gram + masoor (mean yield anomaly),2000,-1.2
+rabi_heat,gram + masoor (mean yield anomaly),2001,4.53
+rabi_heat,gram + masoor (mean yield anomaly),2002,7.64
+rabi_heat,gram + masoor (mean yield anomaly),2003,15.37
+rabi_heat,gram + masoor (mean yield anomaly),2004,-28.84
+rabi_heat,gram + masoor (mean yield anomaly),2005,-25.7
+rabi_heat,gram + masoor (mean yield anomaly),2006,-11.84
+rabi_heat,gram + masoor (mean yield anomaly),2007,-1.7
+rabi_heat,gram + masoor (mean yield anomaly),2008,36.11
+rabi_heat,gram + masoor (mean yield anomaly),2009,20.93
+rabi_heat,gram + masoor (mean yield anomaly),2010,25.93
+rabi_heat,gram + masoor (mean yield anomaly),2011,21.42
+rabi_heat,gram + masoor (mean yield anomaly),2012,86.74
+rabi_heat,gram + masoor (mean yield anomaly),2013,-7.13
+rabi_heat,gram + masoor (mean yield anomaly),2014,-4.19
+rabi_heat,gram + masoor (mean yield anomaly),2015,44.42
+rabi_heat,gram + masoor (mean yield anomaly),2016,18.16
+rabi_heat,gram + masoor (mean yield anomaly),2017,-17.78
+rabi_heat,gram + masoor (mean yield anomaly),2018,16.29
+rabi_heat,gram + masoor (mean yield anomaly),2019,-30.11
+rabi_heat,gram + masoor (mean yield anomaly),2020,-13.24
+rabi_heat,gram + masoor (mean yield anomaly),2021,-8.73
+rabi_heat,gram + masoor (mean yield anomaly),2022,7.9
