@@ -1,5 +1,0 @@
-season,group,n_years,VHI_normal,VHI_drought,slope_VHI_per_SPEI,r,p_value,buffering_index
-kharif,Irrigated,25,58.4195,35.558,9.7242,0.5008,0.0108,-0.1604
-kharif,Rainfed,25,52.7506,33.0499,8.4643,0.4696,0.0179,-0.1604
-rabi,Irrigated,25,52.6508,46.9941,-0.2234,-0.0129,0.9511,0.2012
-rabi,Rainfed,25,50.551,43.4698,0.7374,0.0329,0.8761,0.2012

@@ -1,5 +1,0 @@
-test,estimate,lo,hi,reference,se,mde
-pixel_matched,0.475,-0.096,1.189,8.358,,
-pixel_unmatched,-0.248,-1.049,0.496,8.358,,
-Main groups (irrigated vs rainfed),-3.161,,3.233,19.701,4.134,11.581
-Persistent groups (persistently irrigated vs rainfed),-4.572,,3.632,18.501,5.179,14.51

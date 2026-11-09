@@ -1,8 +1,0 @@
-REVISION TESTS (reviewer concerns 2 and 5) - Gaya
-Group areas (ha): persistently irrigated 93,361, persistently rainfed (Kharif-only) 22,090, rainfed Rabi crops 27,958
-kharif VHI persistently irrigated vs persistently rainfed (Kharif-only): buffering -4.6 [-16.8, +4.4] of a 18.5-point loss; gap per SD heat +1.86 [-1.21, +5.35] (bootstrap p 0.221); gap per SPEI +1.56 [-2.72, +5.27]
-kharif VCI persistently irrigated vs persistently rainfed (Kharif-only): buffering -3.7 [-16.2, +4.8] of a 18.8-point loss; gap per SD heat +1.81 [-1.68, +5.60] (bootstrap p 0.286); gap per SPEI +1.18 [-3.37, +5.30]
-rabi   VHI persistently irrigated vs rainfed Rabi crops: buffering +0.9 [-8.1, +6.1] of a 6.4-point loss; gap per SD heat +3.33 [+1.61, +4.94] (bootstrap p 0.002); gap per SPEI +0.05 [-1.95, +1.83]
-rabi   VCI persistently irrigated vs rainfed Rabi crops: buffering +0.5 [-12.8, +8.3] of a 1.0-point loss; gap per SD heat +4.57 [+2.03, +7.13] (bootstrap p 0.003); gap per SPEI +0.22 [-2.71, +2.84]
-rabi   VHI persistently irrigated vs persistently rainfed (Kharif-only): buffering +1.5 [-8.4, +8.7] of a 6.9-point loss; gap per SD heat +3.33 [+0.26, +5.96] (bootstrap p 0.035); gap per SPEI -0.81 [-3.91, +2.11]
-rabi   VCI persistently irrigated vs persistently rainfed (Kharif-only): buffering +3.6 [-12.3, +15.6] of a 4.1-point loss; gap per SD heat +4.47 [+0.16, +8.44] (bootstrap p 0.042); gap per SPEI -2.41 [-7.18, +2.13]

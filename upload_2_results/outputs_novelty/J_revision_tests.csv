@@ -1,7 +1,0 @@
-season,comparison,index,n_years,n_drought,reference_drop,buffering,buf_lo,buf_hi,gap_per_SPEI,spei_lo,spei_hi,gap_per_heat,heat_lo,heat_hi,p_heat_boot
-kharif,persistently irrigated vs persistently rainfed (Kharif-only),VHI,25,4,18.501,-4.572,-16.79,4.43,1.562,-2.72,5.265,1.862,-1.208,5.351,0.221
-kharif,persistently irrigated vs persistently rainfed (Kharif-only),VCI,25,4,18.797,-3.667,-16.165,4.828,1.178,-3.371,5.296,1.808,-1.676,5.598,0.286
-rabi,persistently irrigated vs rainfed Rabi crops,VHI,25,4,6.358,0.888,-8.074,6.072,0.045,-1.947,1.829,3.328,1.612,4.945,0.002
-rabi,persistently irrigated vs rainfed Rabi crops,VCI,25,4,1.027,0.499,-12.813,8.255,0.218,-2.71,2.842,4.569,2.027,7.127,0.003
-rabi,persistently irrigated vs persistently rainfed (Kharif-only),VHI,25,4,6.949,1.48,-8.375,8.706,-0.81,-3.914,2.106,3.333,0.259,5.961,0.035
-rabi,persistently irrigated vs persistently rainfed (Kharif-only),VCI,25,4,4.115,3.587,-12.296,15.644,-2.411,-7.181,2.131,4.471,0.156,8.443,0.042

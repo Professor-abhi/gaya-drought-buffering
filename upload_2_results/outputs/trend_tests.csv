@@ -1,9 +1,0 @@
-variable,n,S,Z,p_value,sen_slope_per_decade
-JJAS rainfall (mm),45,68.0,0.655,0.5122,14.3245
-SPEI-4 (Sep),45,42.0,0.401,0.6884,0.0494
-Rabi Jan-Mar Tmax (C),44,-32.0,-0.314,0.7539,-0.046
-VHI kharif - Irrigated,25,106.0,2.452,0.0142,12.9372
-VHI kharif - Rainfed,25,108.0,2.499,0.0125,12.0252
-VHI rabi - Irrigated,25,170.0,3.947,0.0001,20.7475
-VHI rabi - Rainfed,25,86.0,1.985,0.0471,13.5735
-Irrigated area (ha),7,11.0,1.502,0.1331,52853.6358

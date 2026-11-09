@@ -1,4 +1,0 @@
-source_1,source_2,percent_agreement,cohen_kappa
-Sentinel-2 RF (Rabi-cropped),WorldCereal irrigated,65.2,0.335
-Sentinel-2 RF (Rabi-cropped),MODIS persistent Rabi green,65.8,0.3
-WorldCereal irrigated,MODIS persistent Rabi green,71.1,0.425
