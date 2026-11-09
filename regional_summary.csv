@@ -1,0 +1,15 @@
+district,canal_command,season,n_years,drop_irrigated,drop_rainfed,buffering_points,gap_vs_SPEI,p_SPEI,gap_vs_heat,p_heat
+Aurangabad,False,kharif,25,10.897,12.259,1.362,-2.842,0.002,-1.154,0.121
+Aurangabad,False,rabi,25,1.758,2.866,1.109,-0.95,0.274,2.818,0.001
+Bhojpur,True,kharif,25,2.819,0.642,-2.177,-0.841,0.467,-2.453,0.036
+Bhojpur,True,rabi,25,6.837,9.21,2.373,-0.613,0.572,3.002,0.006
+Gaya,False,kharif,25,22.536,21.343,-1.192,0.244,0.821,0.332,0.726
+Gaya,False,rabi,25,5.716,6.578,0.861,-0.45,0.711,3.025,0.007
+Jehanabad,False,kharif,25,27.762,25.89,-1.872,0.313,0.624,-1.502,0.013
+Jehanabad,False,rabi,25,4.319,7.193,2.874,-0.582,0.428,1.896,0.004
+Nalanda,False,kharif,25,19.773,19.609,-0.164,1.873,0.242,-0.907,0.54
+Nalanda,False,rabi,25,8.45,9.223,0.774,-0.4,0.61,1.698,0.015
+Nawada,False,kharif,25,24.332,26.795,2.463,-0.253,0.796,-0.054,0.953
+Nawada,False,rabi,25,13.06,14.541,1.481,-0.086,0.943,2.408,0.029
+Rohtas,True,kharif,25,-2.66,0.305,2.966,-1.699,0.319,3.288,0.051
+Rohtas,True,rabi,25,5.778,6.049,0.271,-0.276,0.894,3.547,0.077
