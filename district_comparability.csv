@@ -1,8 +1,0 @@
-district,water_source,JJAS_mean_mm,JJAS_CV_pct,AugOct_Tmax_C,n_drought_2001_2025,drought_years,mean_SPEI_in_droughts,mean_JJAS_in_droughts_mm,JJAS_deficit_in_droughts_pct,kharif_VHI_drop_rainfed,kharif_VHI_drop_irrigated
-Bhojpur,Sone canal,844.57,21.95,31.07,3,2005 2009 2023,-1.26,649.71,-23.07,0.64,2.82
-Rohtas,Sone canal,892.94,18.98,30.59,4,2005 2009 2010 2023,-1.33,689.32,-22.8,0.3,-2.66
-Aurangabad,monsoon-fed,890.65,18.52,30.84,3,2009 2010 2023,-1.43,680.99,-23.54,12.26,10.9
-Gaya,monsoon-fed,916.6,19.25,30.69,4,2009 2010 2022 2023,-1.26,732.39,-20.1,21.34,22.54
-Jehanabad,monsoon-fed,898.58,21.34,31.08,3,2009 2010 2023,-1.17,717.51,-20.15,25.89,27.76
-Nalanda,monsoon-fed,939.38,20.53,31.07,3,2010 2013 2022,-1.12,732.16,-22.06,19.61,19.77
-Nawada,monsoon-fed,989.86,19.74,30.6,2,2010 2022,-1.38,760.24,-23.2,26.8,24.33
