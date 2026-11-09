@@ -1,0 +1,42 @@
+======================================================================
+DROUGHT BUFFERING BY IRRIGATION - GAYA DISTRICT, BIHAR
+======================================================================
+Monsoon (JJAS) rainfall 1981-2025: mean 917 mm, CV 19%
+Drought years (SPEI-4 Sep <= -1.0): [1982, 1983, 1992, 1993, 1995, 2009, 2010, 2022, 2023]
+
+--- KHARIF season (Aug 15-Oct 31) ---
+Irrigated: VHI normal 58.4, drought 35.6, drop 22.9 points
+Rainfed  : VHI normal 52.8, drought 33.0, drop 19.7 points
+Buffering index (share of rainfed drought impact avoided by irrigation) = -0.16
+Irrigated-minus-rainfed VHI gap: drought years 2.5, normal years 5.7 (Mann-Whitney U one-sided p = 0.728)
+VHI sensitivity to SPEI: irrigated 9.72/unit (p=0.007); rainfed 8.46/unit; difference -1.26 (interaction p=0.795)
+
+--- RABI season (Jan 1-Mar 15, after the monsoon of year y) ---
+Irrigated: VHI normal 52.7, drought 47.0, drop 5.7 points
+Rainfed  : VHI normal 50.6, drought 43.5, drop 7.1 points
+Buffering index (share of rainfed drought impact avoided by irrigation) = 0.20
+Irrigated-minus-rainfed VHI gap: drought years 3.5, normal years 2.1 (Mann-Whitney U one-sided p = 0.321)
+VHI sensitivity to SPEI: irrigated -0.22/unit (p=0.958); rainfed 0.74/unit; difference 0.96 (interaction p=0.871)
+
+--- PIXEL LEVEL (Kharif VHI vs standardized JJAS rainfall) ---
+4408 cropland pixels; Spearman rho(irrigation index, sensitivity) = -0.09 (p = 1.4e-08)
+Median sensitivity: irrigated 8.17, rainfed 8.09 VHI points per SD of rainfall (Mann-Whitney p = 0.33)
+
+--- IRRIGATED AREA (Sentinel-2) ---
+2019-20 (rf_auto): irrigated 185.8 kha (51% of cropland)
+2020-21 (rf_auto): irrigated 190.2 kha (52% of cropland)
+2021-22 (rf_auto): irrigated 261.8 kha (72% of cropland)
+2022-23 (rf_auto): irrigated 199.5 kha (55% of cropland)
+2023-24 (rf_auto): irrigated 263.2 kha (73% of cropland)
+2024-25 (rf_auto): irrigated 212.0 kha (59% of cropland)
+2025-26 (rf_auto): irrigated 217.5 kha (60% of cropland)
+
+--- TRENDS (Mann-Kendall, Sen's slope per decade) ---
+JJAS rainfall (mm)               Z=  0.66  p=0.512   Sen=+14.325/decade
+SPEI-4 (Sep)                     Z=  0.40  p=0.688   Sen=+0.049/decade
+Rabi Jan-Mar Tmax (C)            Z= -0.31  p=0.754   Sen=-0.046/decade
+VHI kharif - Irrigated           Z=  2.45  p=0.014*  Sen=+12.937/decade
+VHI kharif - Rainfed             Z=  2.50  p=0.013*  Sen=+12.025/decade
+VHI rabi - Irrigated             Z=  3.95  p=0.000*  Sen=+20.747/decade
+VHI rabi - Rainfed               Z=  1.99  p=0.047*  Sen=+13.573/decade
+Irrigated area (ha)              Z=  1.50  p=0.133   Sen=+52853.636/decade

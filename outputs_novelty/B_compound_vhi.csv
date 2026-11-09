@@ -1,0 +1,17 @@
+season,category,group,VHI_mean,n_years
+kharif,Normal,Irrigated,60.538,17
+kharif,Normal,Rainfed,55.7,17
+kharif,Dry only,Irrigated,40.563,3
+kharif,Dry only,Rainfed,37.607,3
+kharif,Hot only,Irrigated,49.417,4
+kharif,Hot only,Rainfed,40.216,4
+kharif,Compound (dry + hot),Irrigated,20.543,1
+kharif,Compound (dry + hot),Rainfed,19.38,1
+rabi,Normal,Irrigated,57.411,16
+rabi,Normal,Rainfed,56.872,16
+rabi,Dry only,Irrigated,55.429,2
+rabi,Dry only,Rainfed,56.746,2
+rabi,Hot only,Irrigated,37.417,5
+rabi,Hot only,Rainfed,30.324,5
+rabi,Compound (dry + hot),Irrigated,38.559,2
+rabi,Compound (dry + hot),Rainfed,30.194,2

@@ -1,0 +1,11 @@
+season,variant,n_drought,drop_irrigated,drop_rainfed,buffering_points,p_gap_widens
+kharif,"Detrended VHI, SPEI-4 <= -1.0 (main)",4,22.861,19.701,-3.161,0.728
+kharif,"Raw VHI, SPEI-4 <= -1.0",4,17.927,15.047,-2.88,0.653
+kharif,"Detrended VHI, SPEI-4 <= -0.8",5,23.772,19.549,-4.223,0.878
+kharif,"Detrended VHI, SPI-4 <= -1.0",4,26.101,20.395,-5.707,0.943
+kharif,leave one drought year out (range),3,-5.566,0.442,,
+rabi,"Detrended VHI, SPEI-4 <= -1.0 (main)",4,5.657,7.081,1.425,0.321
+rabi,"Raw VHI, SPEI-4 <= -1.0",4,-4.849,0.008,4.857,0.077
+rabi,"Detrended VHI, SPEI-4 <= -0.8",5,-0.984,-1.685,-0.701,0.539
+rabi,"Detrended VHI, SPI-4 <= -1.0",4,-4.418,-5.551,-1.133,0.599
+rabi,leave one drought year out (range),3,-0.417,4.587,,

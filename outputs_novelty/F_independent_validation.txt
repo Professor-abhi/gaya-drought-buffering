@@ -1,0 +1,11 @@
+INDEPENDENT CHECK OF THE 163 BLIND VALIDATION LABELS AGAINST ESA WORLDCEREAL 2021 IRRIGATION
+(sampled in Google Earth Engine at 10 m on 2026-10-27; WorldCereal product 'irrigation', season 'tc-wintercereals')
+
+WorldCereal irrigated among points labelled Rabi-cropped:     38/68 = 56%
+WorldCereal irrigated among points labelled not Rabi-cropped:  3/95 = 3%
+Fisher's exact test: odds ratio 38.8, p = 4.2e-15
+Cohen's kappa: interpreter labels vs WorldCereal 0.56; 2023-24 map vs WorldCereal 0.65
+
+Interpretation: irrigation (by an independent product) is almost absent outside the Rabi-cropped class,
+and present in over half of it; the remainder is consistent with Rabi crops on residual moisture
+(or WorldCereal omission of small irrigated fields).

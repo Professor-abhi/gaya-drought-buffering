@@ -1,0 +1,20 @@
+A. MATCHED COMPARISON OF PIXEL DROUGHT SENSITIVITY (Kharif VHI points per SD of monsoon rainfall)
+Pixels: 1322 irrigated, 450 rainfed; matched irrigated pixels 1322 (240 distinct rainfed controls)
+Covariate balance, standardized mean difference (|SMD| < 0.1 = balanced):
+  elev_m        before -1.12   after -0.08
+  slope_deg     before -0.55   after -0.02
+  dist_river_m  before -0.15   after +0.05
+  clay_pct      before +0.49   after -0.10
+  rain_cv       before +0.02   after +0.06
+  mar_tmax_C    before +0.90   after -0.09
+Mean sensitivity, rainfed pixels: 8.36
+Irrigated minus rainfed, unmatched: -0.25 (spatial-block 95% CI -1.05 to +0.50)
+Irrigated minus rainfed, matched:   +0.47 (spatial-block 95% CI -0.10 to +1.19); i.e. +6% of the rainfed sensitivity (CI -1% to +14%)
+(negative = irrigated pixels less drought-sensitive, i.e. buffering)
+
+B. EQUIVALENCE (TOST-style) AND MINIMUM DETECTABLE EFFECT, year-level Kharif buffering, detrended VHI
+Main groups (irrigated vs rainfed): 4 drought years of 25; rainfed loss 19.7 VHI points; buffering -3.2; one-sided 95% upper bound +3.2 = 16% of the loss; bootstrap SE 4.1; minimum detectable buffering (80% power) 11.6 points = 59% of the loss
+Persistent groups (persistently irrigated vs rainfed): 4 drought years of 25; rainfed loss 18.5 VHI points; buffering -4.6; one-sided 95% upper bound +3.6 = 20% of the loss; bootstrap SE 5.2; minimum detectable buffering (80% power) 14.5 points = 78% of the loss
+Buffering of >= 25% of the rainfed loss rejected at alpha = 0.05 (one-sided): main yes, persistent yes
+Buffering of >= 33% of the rainfed loss rejected at alpha = 0.05 (one-sided): main yes, persistent yes
+Buffering of >= 50% of the rainfed loss rejected at alpha = 0.05 (one-sided): main yes, persistent yes
